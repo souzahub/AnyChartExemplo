@@ -1,0 +1,63 @@
+<html>
+    <head>
+    <style type="text/css">
+        @import '/charts/anychart/files/anychart/charts.css';
+    </style>
+    </head>
+    <body>
+      <div id="chart3"></div>
+      <script>
+        anychart.onDocumentReady(function () {
+            
+            anychart.theme('[theme]');        
+            
+            chartData = {
+                title: 'Performance dos Vendedores',
+                header: ['#', 'Pedro', 'Camila', 'Saulo'],
+                rows: getData()
+            };
+        
+            // create area chart
+            var chart = anychart.area3d();
+        
+            // set chart data
+            chart.data(chartData);
+        
+            // turn on chart animation
+            chart.animation(true);
+        
+            // set interactivity and tooltips settings
+            chart.interactivity().hoverMode('by-x');
+            chart.tooltip().displayMode('union');
+        
+            chart.yAxis().title('Vendas');
+            chart.yAxis().labels().format('{%Value}');
+        
+            // turn on legend
+            chart.legend()
+                    .enabled(true)
+                    .fontSize(13)
+                    .padding([0, 0, 20, 0]);
+        
+            // set 3D settings
+            chart.zAspect('70%')
+                    .zPadding(0)
+                    .zAngle(45);
+        
+            // set container id for the chart
+            chart.container('chart3');
+        
+            // initiate chart drawing
+            chart.draw();
+        });
+        
+        function getData() {
+            return [
+                [00]                
+            ]
+        }
+        </script>
+</body>
+</html>
+    
+                    

@@ -1,0 +1,16 @@
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:00 []:>--------------------------------------------------------------<
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:00 [TUniServerModule]:Server First Init.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:00 [TUniServerModule]:Start Path = C:\Users\Luan\Desktop\AnyChart Exemplo1\AnyChart Exemplo1\
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:26 [TUniServerModule]:Shutting Down Server.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:26 [TUniServerModule]:Stopping HTTP Server.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:26 [TUniServerModule]:HTTP Server Stopped.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [TUniGUISessionManager]:Terminating Session manager.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [TUniGUISessionManager]:Stopping Cache Eraser...
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [TUniGUISessionManager]:Cache Eraser Stopped.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [TUniGUISessionManager]:Destroying Worker Threads.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [TUniGUISessionManager]:Session manager terminated.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [TUniServerModule]:Server Shutdown Completed.
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 []:<-------------------------------------------------------------->
+AnyChart_Exemplo1.exe: 00002E7C: 13:32:27 [Terminated]:Exit Code: 0

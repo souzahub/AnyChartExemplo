@@ -1,0 +1,60 @@
+                     
+<html>
+    <head>
+      <style type="text/css">
+        @import '/files/anychart/charts.css';
+    </style>
+    </head>
+    <body>
+      <div id="chart4"></div>
+      <script>
+        anychart.onDocumentReady(function () {
+
+           anychart.theme('[theme]'); 
+
+            var data = [ 
+                [00]
+            ];
+        
+            // sort data by alphabet order
+            data.sort(function (itemFirst, itemSecond) {
+                return itemSecond[1] - itemFirst[1]
+            });
+        
+            // create bar chart
+            var chart = anychart.bar();
+        
+            // turn on chart animation
+            chart.animation(true)
+                    .padding([10, 40, 5, 20])
+                    // set chart title text settings
+                    .title('Os mais vendidos');
+        
+            // create area series with passed data
+            var series = chart.bar(data);
+            // set tooltip formatter
+            series.tooltip()
+                    .position('right')
+                    .anchor('left-center')
+                    .offsetX(5)
+                    .offsetY(0)
+                    .format('{%Value}');
+        
+            // set titles for axises
+            chart.xAxis().title('Ordenando por maior nº de venda');
+            chart.yAxis().title('Quantidade');
+            chart.interactivity().hoverMode('by-x');
+            chart.tooltip().positionMode('point');
+            // set scale minimum
+            chart.yScale().minimum(0);
+        
+            // set container id for the chart
+            chart.container('chart4');
+            // initiate chart drawing
+            chart.draw();
+        });
+        </script>
+</body>
+</html>
+    
+                    

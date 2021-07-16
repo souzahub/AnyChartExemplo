@@ -1,0 +1,64 @@
+<html>
+<head>
+<style type="text/css">
+    @import '../files/anychart/charts.css';
+</style>
+</head>
+
+<body>
+
+<div id="chart1"></div>
+
+<script>
+
+    anychart.onDocumentReady(function () {     
+        chartData = {
+            title: 'Movimentos - Últimos meses',
+            header: ['#', 'Receitas', 'Despesas', 'Saldo'], // Se preferir carregue isso via Delphi também
+            rows: [
+                [00] // String que será substituida pelos valores dinâmicos
+            ]
+        };
+        
+        anychart.theme('[theme]'); 
+
+        var chart = anychart.column3d();
+
+        chart.data(chartData);
+
+        chart.animation(true);
+
+        chart.yAxis().title('Escala de Valores'); 
+        chart.yAxis().labels().format('{%Value}{decimalSeparator:.,numDecimals:2,trailingZeros:2}');
+
+        chart.labels()
+                .enabled(true)
+                .fontColor('#000')
+                .position('center-top')
+                .anchor('center-bottom')
+                .format('R$ {%Value}{decimalSeparator:.,numDecimals:2,trailingZeros:2}');
+        chart.hovered().labels(false);
+
+        chart.legend()
+                .enabled(true)
+                .fontSize(13)
+                .padding([0, 0, 20, 0]);
+
+        chart.interactivity().hoverMode('single');
+
+        chart.tooltip()
+                .positionMode('point')
+                .position('center-top')
+                .anchor('center-bottom')
+                .offsetX(0)
+                .offsetY(5)
+                .format('{%SeriesName}: R$ {%Value}{decimalSeparator:.,numDecimals:2,trailingZeros:2}');
+
+        chart.container('chart1');
+
+        chart.draw();
+    });
+
+</script>
+</body>
+</html>

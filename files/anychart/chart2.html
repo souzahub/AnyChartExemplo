@@ -1,0 +1,76 @@
+<html>
+<head>
+<style type="text/css">
+    @import '../files/anychart/charts.css';
+</style>
+
+</head>
+<body>
+    <div id="chart2"></div>
+    <script>
+  anychart.onDocumentReady(function () {
+      // create data set on our data
+      var dataSet = anychart.data.set(getData());
+
+      anychart.theme('[theme]'); 
+
+      // map data for the first series, take x from the zero column and value from the first column of data set
+      var seriesData = dataSet.mapAs({'x': 0, 'value': 1});
+  
+      // create line chart
+      var chart = anychart.area();
+  
+      // adding dollar symbols to yAxis labels
+      chart.yAxis().labels().format("R$ {%Value}{decimalSeparator:,,numDecimals:2,trailingZeros:2}");
+  
+      // turn on chart animation
+      chart.animation(true);
+  
+      // axes settings
+      chart.yAxis().title('Valores');
+  
+      var xAxis = chart.xAxis();
+      xAxis.title('Mês/Ano')
+              .overlapMode('allow-overlap');
+      xAxis.labels()
+              .padding([5, 5, 0, 5])
+              .rotation(90);
+  
+      // set chart title text settings
+      chart.title('Vendas últimos 12 meses - I');
+      chart.title()
+              .useHtml(true)
+              .padding([0, 0, 20, 0]);
+  
+      // create a series with mapped data
+      var series = chart.area(seriesData);
+      series.name('Total das Vendas');
+      series.hovered().markers()
+              .enabled(true)
+              .type('circle')
+              .size(4);
+  
+      // set chart tooltip and interactivity settings
+      chart.tooltip()
+              .position('center-top')
+              .anchor('center-bottom')
+              .positionMode('point');
+  
+      chart.interactivity().hoverMode('by-x');
+  
+      // set container id for the chart
+      chart.container('chart2');
+      // initiate chart drawing
+      chart.draw();
+  });
+  
+  function getData() {
+      return [
+        [00]          
+      ]
+  }
+  </script>
+  </body>
+
+ </body>
+</html>

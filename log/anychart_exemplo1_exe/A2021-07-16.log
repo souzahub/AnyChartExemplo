@@ -1,0 +1,40 @@
+AnyChart_Exemplo1.exe: 00004124: 08:42:25 []:>--------------------------------------------------------------<
+AnyChart_Exemplo1.exe: 00004124: 08:42:25 [TUniServerModule]:Server First Init.
+AnyChart_Exemplo1.exe: 00004124: 08:42:25 [TUniServerModule]:Start Path = D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\
+AnyChart_Exemplo1.exe: 00004124: 08:42:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+AnyChart_Exemplo1.exe: 00004124: 08:42:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+AnyChart_Exemplo1.exe: 00001868: 08:42:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 000028A0: 08:42:43 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 00002298: 08:42:48 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 00002E4C: 08:43:07 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 00001478: 08:43:11 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 00001224: 08:43:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 000017F0: 08:43:20 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 000012AC: 08:43:24 [HandleFileRequest[127.0.0.1]]:File not found: D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\charts\anychart\files\anychart\charts.css
+AnyChart_Exemplo1.exe: 00004124: 08:45:26 [TUniServerModule]:Shutting Down Server.
+AnyChart_Exemplo1.exe: 00004124: 08:45:26 [TUniServerModule]:Stopping HTTP Server.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniServerModule]:HTTP Server Stopped.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniGUISessionManager]:Terminating Session manager.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniGUISessionManager]:Stopping Cache Eraser...
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniGUISessionManager]:Cache Eraser Stopped.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniGUISessionManager]:Destroying Worker Threads.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniGUISessionManager]:Session manager terminated.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [TUniServerModule]:Server Shutdown Completed.
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 []:<-------------------------------------------------------------->
+AnyChart_Exemplo1.exe: 00004124: 08:45:27 [Terminated]:Exit Code: 0
+AnyChart_Exemplo1.exe: 000037D0: 08:45:32 []:>--------------------------------------------------------------<
+AnyChart_Exemplo1.exe: 000037D0: 08:45:32 [TUniServerModule]:Server First Init.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:32 [TUniServerModule]:Start Path = D:\documentos\Luan\2021\Delphi Unigui\AnyChart Exemplo1\AnyChart Exemplo1\
+AnyChart_Exemplo1.exe: 000037D0: 08:45:32 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+AnyChart_Exemplo1.exe: 000037D0: 08:45:32 [TUniServerModule]:HTTP Server Started on Port: 8077
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniServerModule]:Shutting Down Server.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniServerModule]:Stopping HTTP Server.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniServerModule]:HTTP Server Stopped.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniGUISessionManager]:Terminating Session manager.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniGUISessionManager]:Stopping Cache Eraser...
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniGUISessionManager]:Cache Eraser Stopped.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:36 [TUniGUISessionManager]:Destroying Worker Threads.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:37 [TUniGUISessionManager]:Session manager terminated.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:37 [TUniServerModule]:Server Shutdown Completed.
+AnyChart_Exemplo1.exe: 000037D0: 08:45:37 []:<-------------------------------------------------------------->
+AnyChart_Exemplo1.exe: 000037D0: 08:45:37 [Terminated]:Exit Code: 0
